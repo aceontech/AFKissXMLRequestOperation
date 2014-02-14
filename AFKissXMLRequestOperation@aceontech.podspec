@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-	s.name = 'AFKissXMLRequestOperation'
-	s.version = '0.0.3'
-	s.homepage = 'https://github.com/marcelofabri/AFKissXMLRequestOperation'
+	s.name = 'AFKissXMLRequestOperation@aceontech'
+	s.version = '0.0.4'
+	s.homepage = 'https://github.com/aceontech/AFKissXMLRequestOperation'
 	s.authors = { 'Mattt Thompson' => 'm@mattt.me' }
 	s.license = 'MIT'
-	s.summary = 'An extension for AFNetworking that provides an interface to parse XML using KissXML.'
-	s.source = { :git => 'https://github.com/marcelofabri/AFKissXMLRequestOperation.git', :tag => '0.0.3' }
+	s.summary = 'An extension for AFNetworking 2.x that provides an interface to parse XML using KissXML.'
+	s.source = { :git => 'https://github.com/aceontech/AFKissXMLRequestOperation.git', :tag => '0.0.4' }
 	s.source_files = 'AFKissXMLRequestOperation.{h,m}', 'AFKissXMLResponseSerializer.{h,m}'
 	s.dependency 'AFNetworking', '~> 2'
 	s.dependency 'KissXML', '~> 5.0'
